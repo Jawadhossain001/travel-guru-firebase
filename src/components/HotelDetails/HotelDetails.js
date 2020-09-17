@@ -1,11 +1,11 @@
 import React from 'react';
 import './HotelDetails.css'
 const HotelDetails = (props) => {
-    const {title, star, reviewed, bedroom, bed, bath, imgUrl, guest, price}=props.hotel
+    const {title, star, reviewed, bedroom, bed, bath, img, guest, price}=props.hotel
     return (
         <div style={{display:"flex", padding:"10px", alignItems:"center"}}>
            <div>
-               <img style={{width:"250px"}} src={imgUrl} alt=""/>
+               <img style={{width:"250px"}} src={img} alt=""/>
            </div>
            <div className="hotel-text-container" style={{marginLeft:"10px"}}>
                <h4 style={{margin:"0"}}>{title}</h4>

@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { UserContext } from '../../App';
-import travelPlaces from '../fakeData/travelingData';
+import travelingData from '../fakeData/travelingData';
 import TravelingArea from '../TravelingArea/TravelingArea';
 import './TravelingSection.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -26,7 +26,7 @@ const TravelPlaces = () => {
             </div>
             <div className="img-card">
                 {
-                    travelPlaces.map(places => <TravelingArea key={places.id} place={places}></TravelingArea>)
+                    travelingData.map(places => <TravelingArea key={places.id} place={places}></TravelingArea>)
                 }
             </div>
         </div>

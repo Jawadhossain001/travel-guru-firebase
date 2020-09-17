@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header'
-import travelingData from '../fakeData/travelingData';
+import HotelCards from '../fakeData/HotelCards';
 import HotelDetails from '../HotelDetails/HotelDetails';
 import Map from '../Map/Map';
 import { Card } from 'react-bootstrap';
@@ -18,7 +18,7 @@ const Hotels = () => {
                         <h3 style={{margin:0}}>Stay in Cox's Bazar</h3>
                    </div>
                 {
-                    travelingData.map(hotel=>{
+                    HotelCards.map(hotel=>{
                         return (
                             <HotelDetails hotel={hotel}></HotelDetails>
                         )

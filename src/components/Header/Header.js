@@ -4,6 +4,7 @@ import { Button, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-boots
 import logo from '../../images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -11,7 +12,9 @@ const Header = () => {
         <div className="header">
             <Navbar expand="lg">
                 <Navbar.Brand className="logo" href="#home">
-                    <img src={logo} alt=""/>
+                    <Link to="/">
+                        <img src={logo} alt=""/>
+                    </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -24,7 +27,9 @@ const Header = () => {
                         <Nav.Link className="menuOpt" href="#blog">Blog</Nav.Link>
                         <Nav.Link className="menuOpt" href="#contact">Contact</Nav.Link>
                         <Form inline>
-                            <Button className="menuOpt" variant="warning">Log in</Button>
+                            <Link to="/auth">
+                                <Button className="menuOpt"  variant="warning">Log in</Button>
+                            </Link>
                         </Form>
                     </Nav>
                 </Navbar.Collapse>

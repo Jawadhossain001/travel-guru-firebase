@@ -10,11 +10,12 @@ const PrivateRoute = ({children, ...rest}) => {
         {...rest}
         render={
             ()=> loggedIn ? (children)
-            : (<Redirect to={
-                    {pathname:"/auth",
-                        location
-                    }
-                }
+            : (
+            <Redirect
+                to={{
+                pathname: "/login",
+                state: { from: location }
+                }}
             />
             )
             
@@ -23,5 +24,6 @@ const PrivateRoute = ({children, ...rest}) => {
         />
     );
 };
+
 
 export default PrivateRoute;

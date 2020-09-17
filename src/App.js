@@ -14,6 +14,7 @@ import "firebase/auth";
 import Booking from './components/Booking/Booking';
 import Auth from './components/Auth/Auth';
 import Hotels from './components/Hotels/Hotels';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 export const UserContext = createContext();
 firebase.initializeApp(firebaseConfig);
@@ -41,6 +42,9 @@ function App() {
             <Route path="/auth">
                 <Auth />
             </Route>
+            <PrivateRoute path="/see-hotel">
+                <Hotels></Hotels>
+            </PrivateRoute>
             <Route path="/hotels">
                 <Hotels />
             </Route>

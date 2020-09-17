@@ -53,11 +53,9 @@ const Booking = () => {
                                     <DatePicker className="datePicker-to" selected={to} onChange={date => setTo(date)} required></DatePicker>
                                 </Form.Group>
                             </Form.Group>
-                            <Link to="/auth" >
                                 <Button onClick={formControler}  variant="warning" size="lg" block>
                                     Start Booking
                                 </Button>
-                            </Link>
                         </Form>
                     </Card>
                 </div>

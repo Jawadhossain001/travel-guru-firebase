@@ -1,0 +1,28 @@
+.booking-opt {
+    display: flex;
+    margin-top: 70px;
+    padding-left: 60px;
+}
+.booking-form {
+    float: right;
+    margin-left: 92px;
+    width: 400px;
+    height: 400px;
+    padding: 20px 40px;
+    /* margin-top: 37px; */
+    margin-bottom: 30px
+}
+.datePicker-from {
+    min-width: 5px;
+}
+.datePicker-to {
+    min-width: 5px;
+
+}
+.date-from {
+    display: flex;
+    
+}
+.booking-form Button {
+    margin-top: 30px;
+}

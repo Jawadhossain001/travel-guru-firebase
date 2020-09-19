@@ -3,7 +3,7 @@ import { Redirect, Route, useLocation } from 'react-router-dom';
 import { UserContext } from '../../App';
 
 const PrivateRoute = ({children, ...rest}) => {
-    const [showArea, setShowArea, loggedIn, setLoggedIn] = useContext( UserContext )
+    const [showArea,setShowArea,loggedIn,setLoggedIn] = useContext( UserContext )
     const location = useLocation()
     return (
         <Route
@@ -13,7 +13,7 @@ const PrivateRoute = ({children, ...rest}) => {
             : (
             <Redirect
                 to={{
-                pathname: "/login",
+                pathname: "/auth",
                 state: { from: location }
                 }}
             />

@@ -3,11 +3,11 @@ import './HotelDetails.css'
 const HotelDetails = (props) => {
     const {title, star, reviewed, bedroom, bed, bath, img, guest, price}=props.hotel
     return (
-        <div style={{display:"flex", padding:"10px", alignItems:"center"}}>
+        <div class="hotelDetails">
            <div>
-               <img style={{width:"250px"}} src={img} alt=""/>
+               <img style={{width:"250px", marginRight: "10px"}} src={img} alt=""/>
            </div>
-           <div className="hotel-text-container" style={{marginLeft:"10px"}}>
+           <div className="hotel-text-container" style={{}}>
                <h4 style={{margin:"0"}}>{title}</h4>
                <div className="hotel-features">
                    <span>{guest} guests</span>

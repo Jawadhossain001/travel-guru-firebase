@@ -9,19 +9,19 @@ const travelPlaces = [
         title: "Sreemongol",
         shortDescription: "Sreemongol is one of the main tourist attractions in the area,[3][4][5] and is home to the Great White-Bellied Heron, the only confirmed site in Bangladesh.",
         description: "Sreemongol is one of the main tourist attractions in the area,[3][4][5] and is home to the Great White-Bellied Heron, the only confirmed site in Bangladesh. Sreemongol is one of the main tourist attractions in the area,[3][4][5] and is home to the Great White-Bellied Heron, the only confirmed site in Bangladesh. Sreemongol is one of the main tourist attractions in the area,[3][4][5] and is home to the Great White-Bellied Heron, the only confirmed site in Bangladesh.",
-        img: "https://i.ibb.co/YTM9f4j/sreemongol.png"
+        img: "https://i.ibb.co/nfRbf2B/sreemongol.png"
     },
     {
         title: "Sundarban",
         shortDescription: "The Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, It spans from the Hooghly River in India's state of West Bengal to the Baleswar River in Bangladesh.",
         description: "The Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, It spans from the Hooghly River in India's state of West Bengal to the Baleswar River in Bangladesh. The Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, It spans from the Hooghly River in India's state of West Bengal to the Baleswar River in Bangladesh. The Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, It spans from the Hooghly River in India's state of West Bengal to the Baleswar River in Bangladesh...",
-        img: "https://i.ibb.co/W5BrQWx/sundorbon.png"
+        img: "https://i.ibb.co/3YTrfTb/sundorbon.png"
     },
     {
         title: "Sajek",
         shortDescription: "Sajek valley is known for its natural environment and is surrounded by mountains, dense forest, and grassland hill tracks. Many small rivers flow through the mountains among which the Kachalong and the Machalong are notable. ",
         description: "Sajek valley is known for its natural environment and is surrounded by mountains, dense forest, and grassland hill tracks. Many small rivers flow through the mountains among which the Kachalong and the Machalong are notable. Sajek valley is known for its natural environment and is surrounded by mountains, dense forest, and grassland hill tracks. Many small rivers flow through the mountains among which the Kachalong and the Machalong are notable. Sajek valley is known for its natural environment and is surrounded by mountains, dense forest, and grassland hill tracks. Many small rivers flow through the mountains among which the Kachalong and the Machalong are notable.",
-        img: "https://i.ibb.co/vsTM191/sajek.png"
+        img: "https://i.ibb.co/JjT4SRz/sajek.png"
     },
 ]
 

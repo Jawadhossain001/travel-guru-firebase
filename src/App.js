@@ -28,26 +28,25 @@ function App() {
       img: "https://i.ibb.co/3fwykdc/rectangle1.png"
   }
   )
-  const [loggedIn, setLoggedIn] = useState(true);
+  const [loggedIn, setLoggedIn] = useState(false);
+  const [name, setName]=useState("user");
+
   return (
-    <UserContext.Provider value={[showArea, setShowArea, loggedIn, setLoggedIn]} className="App">
+    <UserContext.Provider value={[showArea, setShowArea, loggedIn, setLoggedIn, name, setName]} className="App">
         <Router>
           <Switch>
             <Route path="/home">
               <Home />
             </Route>
-            <Route path="/booking">
+            <Route exact path="/booking">               
                 <Booking />
             </Route>
-            <Route path="/auth">
+            <Route exact path="/auth">
                 <Auth />
             </Route>
-            <PrivateRoute path="/see-hotel">
-                <Hotels></Hotels>
-            </PrivateRoute>
-            <Route path="/hotels">
+            <PrivateRoute exact path="/hotels">
                 <Hotels />
-            </Route>
+            </PrivateRoute>
             <Route exact path="/">
               <Home />
             </Route>

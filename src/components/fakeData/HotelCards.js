@@ -8,7 +8,7 @@ const hotelDetails = [
         bed:2,
         bath:2,
         price:52,
-        img:"https://i.ibb.co/xHCvbtf/rectangle28.png"
+        img:"https://i.ibb.co/1XhQLfg/rectangle28.png"
     },
     {
         title:"Apartment in Lost Panorama",
@@ -18,8 +18,8 @@ const hotelDetails = [
         bedroom:2,
         bed:2,
         bath:1,
-        price:34,
-        img:"https://i.ibb.co/t8jRmPt/rectangle27.png"
+        price:34,                                                                                                                                                                    
+        img:"https://i.ibb.co/4V7yT9J/rectangle27.png"
     },
     {
         title:"AR Lounge and pool (r&r b&b)",
@@ -30,7 +30,7 @@ const hotelDetails = [
         bed:3,
         bath:2,
         price:44,
-        img:"https://i.ibb.co/CsLmKTd/rectangle26.png"
+        img:"https://i.ibb.co/x7yJ6YF/rectangle26.png"
     }
 ]
 

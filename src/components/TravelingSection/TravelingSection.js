@@ -18,7 +18,7 @@ const TravelPlaces = () => {
                 <p>{showArea.shortDescription}</p>
                 
                 <Link to="/booking" >
-                    <Button onClick='' variant="warning">
+                    <Button variant="warning">
                         Booking 
                         {/* <FontAwesomeIcon icon={fasFaArrowRight} />  */}
                     </Button>

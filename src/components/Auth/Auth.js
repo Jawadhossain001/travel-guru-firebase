@@ -75,6 +75,7 @@ const Auth = () => {
     }
 
 //Facebook signin handle
+
     const facebookSigninHandler =()=>{
         const provider = new firebase.auth.FacebookAuthProvider();
         firebase.auth().signInWithPopup(provider)
